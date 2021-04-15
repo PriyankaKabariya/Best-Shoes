@@ -1,0 +1,429 @@
+header figure {
+    margin-bottom: 0%;
+    margin-top: 2%;
+    ;
+}
+
+body {
+    /* background-image: url("../images/background.jpg"); */
+    font-family: "arial";
+}
+
+figure {
+    display: flex;
+}
+
+figure h3 {
+    font-family: "Sofia";
+    font-size: 22px;
+}
+
+marquee h1 {
+    font-family: sofia;
+    text-decoration: underline;
+    font-size: 39px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.main-layout h2 {
+    font-family: sofia;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 39px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.main-layout {
+    text-align: justify;
+    margin: 3%
+}
+
+a:hover {
+    color: brown;
+}
+
+.main-layout img {
+    border: 3px solid;
+    border-color: brown;
+    width: 170px;
+    height: auto;
+    margin-bottom: 5%;
+    float: right;
+    margin-left: 3%;
+}
+
+.main-layout-2 {
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.main-layout-2 img {
+    margin-left: 3%;
+    float: left;
+    border: 3px solid;
+    border-color: brown;
+    width: 170px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 3%;
+}
+
+/* Navbar CSS */
+
+nav {
+    border-radius: 29px;
+    background-color: #964e4e;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.header-box {
+    display: flex;
+}
+
+.header-social {
+    margin-inline-start: auto;
+    margin-top: 1%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    width: 13.66%;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    border-radius: 25px;
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    border-radius: 25px;
+    background-color: #666;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer CSS */
+
+footer {
+    border-radius: 25px;
+    clear: both;
+    border: 5px solid;
+    border-color: brown;
+}
+
+.footer-symbol {
+    width: 33.33%;
+}
+
+.footer-link {
+    width: 33.33%;
+    margin-left: auto;
+    float: right
+}
+
+.footer-social {
+    padding-bottom: 5px;
+}
+
+.footer-box a {
+    position: absolute;
+    padding-left: 12px;
+}
+
+.footer-box {
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.footer-box h3 {
+    padding-left: 12%;
+    width: 165px;
+}
+
+.footer-link h5 {
+    text-align: -webkit-center;
+    margin-left: 12%;
+    font-size: 1.7vw;
+}
+
+.footer-link li {
+    padding-bottom: 4px;
+    ;
+}
+
+ul {
+    text-align: -webkit-center;
+    list-style: none;
+}
+
+/* Image box CSS */
+
+.img-container {
+    border: 3px solid;
+    border-color: brown;
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+}
+
+.sale-box {
+    border-radius: 4px;
+    border: 2px solid;
+    margin-top: 2%;
+    border-color: brown;
+}
+
+/* CATALOGUE PAGE */
+
+.product-thumbnail {
+    /* min-width: 25%; */
+    padding: 1%;
+    margin: 2%;
+    border-color: brown;
+    border: 3px solid;
+    float: left;
+    text-align: "center";
+    border-radius: 25px;
+}
+
+.product-thumbnail img {
+    border-radius: 25px;
+    /* width: -webkit-fill-available; */
+    width: 320px;
+    height: 220px;
+}
+
+.product-thumbnail h2 {
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.product-thumbnail h4 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: x-large;
+    color: brown;
+}
+
+.product-thumbnail:hover {
+    background-color: lightblue;
+}
+
+.button {
+    background-color: brown;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.btn-catalogue {
+    margin: inherit;
+    text-align: center;
+}
+
+.catalogue-main h1 {
+    font-family: sofia;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* GALLARY CSS */
+
+.gallery {
+    border-color: brown;
+    border: 3px solid;
+    border-radius: 25px;
+    margin: 4%;
+    float: left;
+    width: 22%;
+}
+
+.gallery:hover {
+    box-shadow: 0px 0px 100px skyblue;
+}
+
+.gallery img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.desc {
+    font-family: sofia;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-container {
+    margin: 2%;
+}
+
+/* TABLE CSS */
+
+#compare {
+    border-radius: 25px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#compare img {
+    width: 50%;
+    height: auto;
+}
+
+#compare td, #compare th {
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+#compare tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#compare tr:hover {
+    background-color: #ddd;
+}
+
+#compare th {
+    width: 22.33%;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgba(175, 109, 109, 0.973);
+    color: white;
+}
+
+#compare td:first-child {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.map-box {
+    width: 50%;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: lightcoral;
+}
+
+.map-box iframe {
+    width: -webkit-fill-available;
+    border-radius: 25px;
+}
+
+.map-container {
+    display: flex;
+    margin: 2%
+}
+
+/* FORM CSS */
+
+.form-style-1 {
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+}
+
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style-1 input[type=text], .form-style-1 input[type=number], .form-style-1 input[type=email], textarea, select {
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    outline: none;
+}
+
+.form-style-1 input[type=text]:focus, .form-style-1 input[type=number]:focus, .form-style-1 input[type=email]:focus, .form-style-1 textarea:focus, .form-style-1 select:focus {
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin-left: 4%;
+}
+
+.form-style-1 .field-divided {
+    width: 49%;
+}
+
+.form-style-1 .field-long {
+    width: 100%;
+}
+
+.form-style-1 .field-select {
+    width: 100%;
+}
+
+.map-box2 {
+    margin: auto;
+}
+
+fieldset {
+    border-color: lightcoral;
+    border-style: solid;
+}
+
+.product-description {
+    margin: auto;
+}
+
+.product-description h2 {
+    font-family: sofia;
+    text-decoration: underline;
+}
+
+.button, a:active, a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
